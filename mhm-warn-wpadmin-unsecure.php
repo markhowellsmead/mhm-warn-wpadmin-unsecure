@@ -4,7 +4,7 @@ Plugin Name: Warn of unsecure admin environment
 Plugin URI: https://github.com/mhmli/mhm-warn-wpadmin-unsecure
 Description: Outputs a warning message if the current view in the admin area was loaded over a non-secure connection. (i.e. without HTTPS/SSL.)
 Author: Mark Howells-Mead
-Version: 1.0.0
+Version: 1.1.0
 Author URI: https://markeb.ch/
 Text Domain: mhm-warn-wpadmin-unsecure
 Domain Path: /Resources/Private/Language

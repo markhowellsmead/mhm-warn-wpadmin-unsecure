@@ -7,7 +7,7 @@ class Plugin
     public function __construct()
     {
         add_action('admin_init', array($this, 'loadTextDomain'));
-        if (!isset($_SERVER['HTTPS']) || empty($_SERVER['HTTPS']) || strtolower($_SERVER['HTTPS']) === 'off') {
+        if (!is_ssl()) {
             add_action('admin_notices', array($this, 'render'));
         }
     }

@@ -20,5 +20,8 @@ Outputs a warning message if the current view in the admin area was loaded over 
 
 == Changelog ==
 
+= 1.1.0 =
+* Use WordPress' own <code>is_ssl()</code> function.
+
 = 1.0.0 =
 * Initial version.
